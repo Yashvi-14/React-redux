@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem; /* Adjust margin as needed for spacing between products */
+  }
+  
+  .column {
+    flex: 0 0 calc(33.333% - 2rem); /* Adjust width as needed */
+    max-width: calc(33.333% - 2rem); /* Adjust max-width as needed */
+    padding: 1rem; /* Adjust padding as needed for spacing between products */
+  }
